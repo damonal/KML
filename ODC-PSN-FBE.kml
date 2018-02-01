@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ODC-PSN-FBE</name>
+	<open>1</open>
+	<Style id="h_kabel_D04">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_kabel_41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_kabel_D0410</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h_kabel_D041</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_kabel_D041">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_dpoint">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="h_kabel_D040">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_kabel_D0410">
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_dpoint0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_kabel_410">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_kabel_D0411</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h_kabel_D040</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="s_dpoint1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_dpoint3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_dpoint4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="h_kabel_D041">
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="s_dpoint2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_dpoint</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_dpoint0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_kabel_411">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_kabel_D041</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h_kabel_D04</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_dpoint3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_dpoint4">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_kabel_D0411">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_triangle">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>70ff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="sh_triangle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sh_triangle1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_triangle1">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>70ff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>FEEDER</name>
+		<Folder>
+			<name>ODC</name>
+			<Placemark id="placemark4378377317664059142">
+				<name>ODC-PSN-FBE</name>
+				<description>Spec Id : ODC-C-48 Splitter
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2836246-2836251</description>
+				<styleUrl>#sh_triangle0</styleUrl>
+				<Point>
+					<coordinates>112.845633235317,-7.6141885766666,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Kabel</name>
+			<Placemark>
+				<name>FE-PSN-34-02-02</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Feeder
+Fiber Length : 2125.470 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2836246-2836251</description>
+				<styleUrl>#m_kabel_411</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.860322037685,-7.623094957889,0 112.860354197372,-7.623116484768,0 112.860354377036,-7.623073609650001,0 112.860010322282,-7.622916311563,0 112.860023527516,-7.622928727483999,0 112.859668962474,-7.622740970148,0 112.859434412353,-7.622600196772,0 112.859148837924,-7.62244513165,0 112.859371799778,-7.622204048188,0 112.859528196469,-7.621974576668,0 112.859414020596,-7.621903028701,0 112.859129973303,-7.6217350115,0 112.858849968429,-7.621575033426,0 112.858580024686,-7.621425059499,0 112.858119997429,-7.621195051772,0 112.857830021256,-7.621054992659,0 112.857341966562,-7.620795061439999,0 112.85700096608,-7.6206110551,0 112.856548035514,-7.620373990536999,0 112.856198590868,-7.62015988204,0 112.855891367041,-7.62000624553,0 112.855490179435,-7.619809912310999,0 112.855191399772,-7.619656275721,0 112.854773234007,-7.619434395838001,0 112.854345725763,-7.619188398492,0 112.854059073356,-7.619052894468,0 112.853902766497,-7.618953834489,0 112.853647375461,-7.618828781294001,0 112.853277359396,-7.618635931356001,0 112.852896833041,-7.61845353224,0 112.852552868119,-7.618255501416999,0 112.852162011139,-7.618047019644999,0 112.851812835988,-7.617854169482,0 112.851510552895,-7.61769258262,0 112.851130116372,-7.617499732355,0 112.850786061618,-7.617327783832,0 112.850457727382,-7.617161016054,0 112.850092921545,-7.616962895521999,0 112.849712485022,-7.616775315162999,0 112.849394571243,-7.616598096338,0 112.848987993746,-7.616394884169999,0 112.848586716308,-7.61616031919,0 112.8482271207,-7.615977919399999,0 112.847877945549,-7.615795519569999,0 112.847523470338,-7.615618300485,0 112.847205556559,-7.615456713084,0 112.846778227978,-7.615237779511001,0 112.846470734656,-7.615060649604,0 112.846131979963,-7.614893881263,0 112.845709771779,-7.614664496566,0 112.845850537784,-7.614450832869,0 112.845714982008,-7.614362223155,0 112.845650033813,-7.614240027482,0 112.845633235317,-7.614188576666,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>DISTRIBUSI 1</name>
+		<Folder>
+			<name>KEBEL</name>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/01-01</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 588.762 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2836649-2836654</description>
+				<styleUrl>#m_kabel_410</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.845633235317,-7.614188576666,0 112.845650033813,-7.614240027482,0 112.845714982008,-7.614362223155,0 112.845850537784,-7.614450832869,0 112.845709771779,-7.614664496566,0 112.845410003969,-7.614545337973999,0 112.845079423944,-7.614380981261,0 112.844739591272,-7.614225735589,0 112.844418174064,-7.614043067305,0 112.844087594039,-7.613860488295,0 112.84379375511,-7.613686931001001,0 112.843536567444,-7.613577419269999,0 112.843261054146,-7.613449506693,0 112.842921311306,-7.613303461225001,0 112.842590731281,-7.6131573264,0 112.842269224241,-7.613002080444999,0 112.84188357749,-7.612810300727,0 112.841706968705,-7.612693464244,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/01-02</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 1214.631 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 64
+Project Id : 2836649-2836654</description>
+				<styleUrl>#m_kabel_410</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.841706968705,-7.612693464244,0 112.841121356971,-7.612499808620999,0 112.840799939762,-7.612353762945999,0 112.840432528811,-7.612189405696,0 112.840111111602,-7.612052381741,0 112.839826435489,-7.611906246639999,0 112.839541759375,-7.611778423071001,0 112.839238667799,-7.611632377239,0 112.838953991685,-7.611504464289,0 112.83862341166,-7.611358418397001,0 112.838301994452,-7.611203172027001,0 112.83796216178,-7.611057036745,0 112.83766832285,-7.61092921301,0 112.837310164547,-7.610783077669,0 112.836970421706,-7.610618720034,0 112.836667330129,-7.610481785083,0 112.836355075737,-7.610344760779,0 112.836052073991,-7.610207825772,0 112.835730656783,-7.610061690274,0 112.835390824111,-7.609915554744,0 112.835023502991,-7.609760308039,0 112.834711248598,-7.609623372912999,0 112.834298023567,-7.609459014995,0 112.833985769175,-7.609312879334,0 112.834147465926,-7.609082510155,0 112.834335483315,-7.608675545256,0 112.834519458285,-7.608255538642001,0 112.834774489994,-7.60788251681,0 112.834961249742,-7.60752744914,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ODP</name>
+			<Placemark id="placemark4378377317664309234">
+				<name>FBE/D01/01.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2836649-2836654</description>
+				<styleUrl>#s_dpoint2</styleUrl>
+				<Point>
+					<coordinates>112.841706968705,-7.612693464244101,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark4378377317664309221">
+				<name>FBE/D01/02.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2836649-2836654</description>
+				<styleUrl>#s_dpoint2</styleUrl>
+				<Point>
+					<coordinates>112.834961249742,-7.6075274491407,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>DISTRIBUSI 2</name>
+		<Folder>
+			<name>KABEL</name>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-01</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Distribution
+Fiber Length : 124.457 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 3
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.845633235317,-7.614188576666,0 112.845650033813,-7.614240027482,0 112.845785679421,-7.6138817474,0 112.845916294463,-7.61357840184,0 112.846044214559,-7.613304443794,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-07</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Distribution
+Fiber Length : 142.668 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 24
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.849175022988,-7.605563184605,0 112.848740328222,-7.605340317484,0 112.848572253432,-7.60561427878,0 112.848367707042,-7.605979619885,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-06</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Distribution
+Fiber Length : 155.762 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 40
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.850300252713,-7.606268230285,0 112.850018900366,-7.605983282228,0 112.849777792543,-7.605870017574,0 112.849175022988,-7.605563184605,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-05</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Distribution
+Fiber Length : 77.078 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 39
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.850172332616,-7.606907531803,0 112.850303845974,-7.606542191203,0 112.850300252713,-7.606268230285,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-04</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Distribution
+Fiber Length : 226.822 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 48
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.848937598258,-7.608368892218,0 112.849284617452,-7.608098505051,0 112.849525725275,-7.607879301102999,0 112.849828996515,-7.607579793719,0 112.850037225997,-7.607276534541,0 112.850132177923,-7.607013471608,0 112.850172332616,-7.606907531803,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Distribution
+Fiber Length : 322.354 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 8
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.847308233996,-7.61053520133,0 112.8474689426,-7.610213721213,0 112.847644293744,-7.609859369376,0 112.847819644887,-7.609501355028,0 112.847962117691,-7.609201759042001,0 112.848100997234,-7.609019178715,0 112.848309226717,-7.608843744343,0 112.848594172325,-7.608624629964,0 112.848937598258,-7.608368892218,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-02</name>
+				<description>Spec Id : AC-OF-SM-24-SC
+Network Type : Distribution
+Fiber Length : 354.171 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 7
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.846044214559,-7.613304443794,0 112.846153809024,-7.613081579241,0 112.846318200721,-7.612723566612001,0 112.846530113297,-7.612299721572001,0 112.846709057701,-7.6119051747,0 112.846877132491,-7.61149973008,0 112.847089045066,-7.611006478933,0 112.847187680085,-7.610794600559999,0 112.847308233996,-7.61053520133,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-04-01</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 194.730 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 65
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.850172332616,-7.606907531803,0 112.850132177923,-7.607013471608,0 112.849660921725,-7.60687466009,0 112.849474611135,-7.606955052864,0 112.849112949402,-7.606783369617,0 112.848685530989,-7.606582387611,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-01</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 175.795 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 32
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.848937598258,-7.608368892218,0 112.849284617452,-7.608098505051,0 112.849525725275,-7.607879301102999,0 112.849828996515,-7.607579793719,0 112.850143137369,-7.607656434751,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-06</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 141.638 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.853719689842,-7.61032698513,0 112.854008318542,-7.609709571479,0 112.854066709036,-7.609589072134,0 112.854263979072,-7.609238292966,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-10</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 105.263 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.853566257591,-7.608306721938,0 112.853332426123,-7.608653839264,0 112.853723372934,-7.608946021516,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-09</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 79.507 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.854095994114,-7.608120389712,0 112.853825601214,-7.60801078775,0 112.853566257591,-7.608306721938,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-08</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 83.438 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.854757243995,-7.608405336863001,0 112.854410134969,-7.608251965637,0 112.854095994114,-7.608120389712,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-07</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 112.584 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.854263979072,-7.609238292966,0 112.854461249109,-7.608880278287,0 112.854757243995,-7.608405336863001,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-05</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 150.696 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.853708730395,-7.609267502239001,0 112.854066709036,-7.609589072134,0 112.854008318542,-7.609709571479,0 112.853719689842,-7.61032698513,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-04</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 207.707 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 0
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.852123203919,-7.608449195489,0 112.852477589298,-7.608635527623,0 112.852926926603,-7.60882552203,0 112.853332426123,-7.608997204759,0 112.853708730395,-7.609267502239001,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-03</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 106.283 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 5
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.851290285987,-7.608065633396,0 112.851739623292,-7.608281174953001,0 112.852123203919,-7.608449195489,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>DS-PSN-FE-34-02-02/02-03-02</name>
+				<description>Spec Id : AC-OF-SM-12-SC
+Network Type : Distribution
+Fiber Length : 143.007 m
+Construction Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Jumlah HP : 26
+Project Id : 2980796-2980801</description>
+				<styleUrl>#m_kabel_41</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						112.850143137369,-7.607656434751,0 112.850395204638,-7.60766375941,0 112.850731354217,-7.607791673099,0 112.851290285987,-7.608065633396,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ODP</name>
+			<Placemark id="placemark5001974047442412291">
+				<name>FBE/D02/17.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.850143137369,-7.607656434751,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412148">
+				<name>FBE/D02/09.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.853566257591,-7.608306721938101,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411930">
+				<name>FBE/D02/13.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.853719689842,-7.610326985134,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412188">
+				<name>FBE/D02/11.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.854757243995,-7.6084053368631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411434">
+				<name>FBE/D02/07.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.850172332616,-7.6069075318038,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412209">
+				<name>FBE/D02/12.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.854263979072,-7.6092382929667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412167">
+				<name>FBE/D02/10.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.854095994114,-7.608120389712301,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411497">
+				<name>FBE/D02/20.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.846044214559,-7.613304443794,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411455">
+				<name>FBE/D02/18.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.848937598258,-7.6083688922186,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411413">
+				<name>FBE/D02/05.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.850300252713,-7.6062682302854,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412249">
+				<name>FBE/D02/15.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.852123203919,-7.6084491954891,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411616">
+				<name>FBE/D02/06.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.848685530989,-7.6065823876117,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411394">
+				<name>FBE/D02/04.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.849175022988,-7.6055631846051,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412332">
+				<name>FBE/D02/03.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.848367707042,-7.6059796198854,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442411476">
+				<name>FBE/D02/19.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.847308233996,-7.6105352013301,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412145">
+				<name>FBE/D02/08.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.853723372934,-7.6089460215164,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412230">
+				<name>FBE/D02/14.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.853708730395,-7.6092675022397,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="placemark5001974047442412270">
+				<name>FBE/D02/16.01</name>
+				<description>Spec Id : ODP-PB-8
+Splice Tye : breaking
+Status : In Service
+Witel : JATIM SELATAN TIMUR
+Sto : PSN
+Project Id : 2980796-2980801</description>
+				<styleUrl>#s_dpoint1</styleUrl>
+				<Point>
+					<coordinates>112.851290285987,-7.6080656333964,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
